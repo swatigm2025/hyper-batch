@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+header{
+    position: sticky;
+    top: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#contents{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+#arrow{
+    height: 30px;
+    width: 30px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    right: 100px;
+    bottom: 50px;
+}

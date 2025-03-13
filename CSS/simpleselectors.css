@@ -1,0 +1,38 @@
+body{
+    background-color: hotpink;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+}
+
+div{
+    color: blue;
+    background-color: aqua;
+    font-size: 50px;
+}
+
+#demo{
+    color: brown;
+    background-color: aquamarine;
+}
+
+.test{
+    background-color: beige;
+    color: red;
+}
+
+nav{
+    background-color: blueviolet;
+    color: black;
+}
+
+section,div{
+       background-color: bisque;
+       color: chocolate;
+}
+
+header,p{
+    font-size: 40px;
+}

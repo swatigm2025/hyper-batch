@@ -1,0 +1,52 @@
+body{
+    background-color: aqua;
+
+}
+h1{
+    text-align: center;
+}
+a{
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    font-size: 50px;
+    /* text-decoration: none; */
+}
+a:link{
+    color: red;
+    background-color: greenyellow;
+}
+a:visited{
+    color:blue;
+    background-color: brown;
+}
+a:hover{
+    color: rgb(red, green, blue)
+}
+a:active{
+    color: blueviolet;
+}
+#box{
+    height: 350px;
+    width: 400px;
+    background-color: black;
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpTtVCpqEtP_emZ6QxZVCPVssO5Eq3CU2E2w&s);
+    background-repeat: no-repeat;
+    background-size: 400px 350px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+
+}
+#box:hover{
+    background-color: beige;
+    border: 5px solid black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO1riU5aKxZxD-DBgEAEnrKkstcAEs6Ze1IA&s);
+    background-repeat: no-repeat;
+    background-size: 400px 350px;
+
+}

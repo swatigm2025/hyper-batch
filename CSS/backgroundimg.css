@@ -1,0 +1,15 @@
+h1{
+    background-color: blue;
+}
+main{
+    height: 500px;
+    width: 100%px;
+    background-color: black;
+}
+.r1{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM5-_cW8Aojy7lBbjbL6q0PGzbeFj3bfMoCA&s");
+    height: 900px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 900px ;
+}

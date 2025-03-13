@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <center><h1>Forms in HTML</h1></center>
+   <br>
+   <br>
+    <center>
+<form action="" autocomplete="on" method="get">
+    <fieldset>
+          <legend>Enter the details</legend>
+   <table>
+
+    <tr>
+        <td><label for="">Profile</label></td>
+        <td><input type="image" name="Profile" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJdauKmK3JP7AREOlnMCR8e6f5i1-Ci0cNkA&s" height="50px" width="50px" required ></td>
+    </tr>
+
+    <tr>
+        <td><label for="username">Username</label></td>
+        <td><input type="text" id="username" placeholder="Enter the username" required name="username"></td>
+    </tr>
+
+    <tr>
+        <td><label for="username">Username</label></td>
+        <td><input type="text" id="username" placeholder="Enter the username" required name="username" value="Swati" readonly></td>
+    </tr>
+
+    <tr>
+        <td><label for="adress">Adress</label></td>
+        <td><textarea name="adress" id="adress"></textarea></td>
+    </tr>
+
+    <tr>
+        <td><label for="Password">Password</label></td>
+        <td><input type="text" id="Password" required placeholder="enter the Password" name="Password" minlength="0" maxlength="6" autofocus></td>
+    </tr>
+
+    <tr>
+        <td><label for="shoe">Shoes</label></td>
+        <td><input id="shoe"  name="shoe">
+        <datalist id="shoes">
+            <option value="puma"></option>
+            <option value="HRX"></option>
+            <option value="Adidas"></option>
+            <option value="Adibas"></option>
+        </datalist>
+        </td>
+    </tr>
+
+    <tr>
+        <td><label for="Email">Email</label></td>
+        <td><input type="Email" id="Email" placeholder="Enter the mail" required></td>
+    </tr>
+
+    <tr>
+        <td><label for="date">DOB</label></td>
+        <td><input type="date" id="date" placeholder="Enter DOB" required></td>
+    </tr>
+
+    <tr>
+        <td><label for="time">Time</label></td>
+        <td><input type="time" id="time" placeholder="Enter the time" required></td>
+    </tr>
+
+    <tr>
+        <td><label for="">Gender</label></td>
+        <td><input type="radio" name="gender" value="male" required>Male
+            <input type="radio" name="gender" value="female" required>Female
+            <input type="radio" name="gender" value="others" required>Others
+        
+        </td>
+    </tr>
+
+    <tr>
+        <td><label for="tech">Technology</label></td>
+        <td><select name="technology" id="tech">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JS">JS</option>
+        </select></td>
+    </tr>
+
+    <tr>
+        <td><label for="">Sports</label></td>
+        <td><input type="checkbox" name="Sports1" value="Cricket" >Cricket
+            <input type="checkbox" name="Sports2" value="Kabaddi" >Kabaddi
+            <input type="checkbox" name="Sports3" value="Football">Football
+        
+        </td>
+    </tr>
+
+    <tr>
+        <td><label for="filename">File name</label></td>
+        <td><input type="file" id="filename" name="filename" ></td>
+    </tr>
+    
+
+    <tr>
+        <td><label for="num">Contact number</label></td>
+        <td><input type="number" id="num" placeholder="Enter number" required minlength="0" maxlength="10"></td>
+    </tr>
+
+    <tr>
+        <td><label for="range">Choose the range</label></td>
+        <td><input type="range" id="range" name="range" required ></td>
+    </tr>
+
+    <tr>
+        <td><label for="color">Choose the color</label></td>
+        <td><input type="color" id="color" name="color" required ></td>
+    </tr>
+
+    <tr>
+        <td><label for="color">Choose the color</label></td>
+        <td><input type="hidden" id="color" name="color" required ></td>
+    </tr>
+
+    <tr>
+        <td><label for="url">Search the URL</label></td>
+        <td><input type="search" id="url"  placeholder="search" name="search"></td>
+    </tr>
+
+<tr>
+    <td><input type="reset" value="reset"></td>
+</tr>
+
+</table>
+<button type="submit">login</button>
+<button type="reset">cancel</button>
+</fieldset>
+</form>
+    </center>
+    
+    
+</body>
+</html>

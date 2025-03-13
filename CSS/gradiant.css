@@ -1,0 +1,82 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+h1{
+    text-align: center;
+}
+#linear-gradiant{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+#linear1{
+    height: 300px;
+    width: 300px;
+    background-color: hotpink;
+    background-image: linear-gradient(to bottom right, red 0%, red 25%, yellow 25%, yellow 50%, aqua 75%, blue 75%);
+    background-image: linear-gradient(to top right, blue, aqua, yellow);
+    border-top-left-radius: 50px;
+}
+#linear2{
+    height: 300px;
+    width: 300px;
+    background-color:yellow;
+    background-image: repeating-linear-gradient(to top right, black 0%, black 5%, white 5%, white 2%);
+}
+#linear3{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    background-image: url(https://cdn.pixabay.com/photo/2012/11/07/02/55/flowers-65036_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    border-top-left-radius: 50%;
+}
+#linear4{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+
+#radial-gradiant{
+    height: 400px;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#radial1{
+    height: 300px;
+    width: 300px;
+    background-image: radial-gradient(yellow,aqua);
+}
+#radial2{
+    height: 300px;
+    width: 300px;
+    background-image: radial-gradient(yellow 0%, yellow 10%, aqua 10%, aqua 20%);
+}
+#conic-gradient{
+    height: 400px;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#conic1{
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    background-image: conic-gradiant(aqua,black, yellow,red,blue);
+  }
+  #conic2{
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    background-image: repeating-conic-gradiant(aqua 0%,aqua 1%,black 1%, black 2%);
+  }
+    

@@ -1,0 +1,48 @@
+h1{
+    text align: center;
+}
+#positions{
+    height: 600px;
+    width: 90%;
+  background-color: goldenrod;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#relative{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    position: relative;
+    top: 200px;
+}
+#absolute{
+    height: 150px;
+    width: 150px;
+    background-color:rgb(234, 50, 225);
+    position: absolute;
+    top: 200px;
+}
+/* #static{
+ height: 200px;
+ width: 200px;
+ background: rgb(235, 85, 21);
+
+} */
+ when element has relative position it moves with respect to itself i.e its own position
+ when element has absolute position it moves with respect to html document
+#fixed{
+    height: 150px;
+    width: 150px;
+    background-color:rgb(27, 237, 62);
+    position: fixed;
+    right: 100px;
+}
+#sticky{
+    height: 150px;
+    width: 150px;
+    background-color:rgb(29,13, 244;
+    position: sticky;
+    top: 0px;
+}

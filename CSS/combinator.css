@@ -1,0 +1,29 @@
+body{
+background-color: aqua;
+font-size: 60px;
+}
+
+/* section div{
+    color: black;
+    background-color:red ;
+} */
+
+/* section>div{
+    color: red;
+    background-color:brown ;
+} */
+/* 
+section+div{
+    color: greenyellow;
+    background-color: green;
+} */
+
+section~div{
+    color: blue;
+    background-color: antiquewhite;
+} 
+
+/* div+div{
+    background-color: bisque;
+    color: red;
+} */

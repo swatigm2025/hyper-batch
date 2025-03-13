@@ -1,0 +1,26 @@
+body{
+    background-color: chocolate;
+}
+
+h1{
+    text-align: centre;
+}
+
+div{
+    background-color: chartreuse;
+    color: black;
+    width: 80px;
+    padding: 100px;
+    border: 10px dotted blue;
+    margin-left: 600px;
+    margin-top: 200px;
+    /* border radius:50% */
+    border-top-right-radius: 200px;
+    border-bottom-left-radius:200px;
+}
+
+p{
+    /* margin top:200px; */
+    /* margin-left: 500px; */
+    margin: 200px 0px 0px 500px;
+}

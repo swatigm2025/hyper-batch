@@ -1,0 +1,16 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: blueviolet;
+    color: blue;
+
+    
+
+
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL83aOlZKwHfuUXUWozn9wiZ7oMJyS7QNsnQ&s);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 100% 950px;
+}

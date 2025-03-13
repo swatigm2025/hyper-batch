@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+
+        h1{
+            text-align: center;
+            color: brown;
+        }
+
+        #parent{
+            height: 500px;
+            width: 600px;
+            background-color: blueviolet;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        #child1{
+            height: 100px;
+            width: 100px;
+            background-color: hotpink;
+            display: flex;
+            /* justify-content: center;  centre,space between, space around */
+            align-items: center;
+            justify-content: center;
+        }
+
+        #child2{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #child3{
+            height: 100px;
+            width: 100px;
+            background-color:blue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>how to bring the contents to the centre of the box</h1>
+
+    <!-- shortcut   div#parent>div#child1{pink}+div#child2{red}+div#child3{blue} -->
+    <div id="parent">
+        <div id="child1">pink</div>
+        <div id="child2">red</div>
+        <div id="child3">blue</div>
+    </div>
+    
+</body>
+</html>

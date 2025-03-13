@@ -1,0 +1,54 @@
+/* nav{
+   font: 50px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 100px;
+   width: 100%;
+   background-color: aqua;
+   color: blue;    
+} */
+/* 
+nav>h3{
+
+}
+ 
+nav#home{
+
+} */
+
+nav{
+    font: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color:orange;
+    color: black;     
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#contents{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+
+nav h6{
+    color: blueviolet;
+}
+
+nav>icons>h6{ 
+    color: yellowgreen; 
+}
+
+/* icons is adjacent to#contents */
+#contents+#icons{
+    color: chartreuse; 
+}
